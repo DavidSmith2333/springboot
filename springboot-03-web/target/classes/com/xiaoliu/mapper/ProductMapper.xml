@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaoliu.mapper.ProductMapper">
+
+    <select id="getAll" resultType="Product">
+        select id,productName,productConcessionary,productPrice,productActualPayment,dateOfManufacture,productINFO
+        from springbootweb.product
+    </select>
+
+
+    <select id="getProductById" resultType="Product">
+        select id,productName,productConcessionary,productPrice,productActualPayment,dateOfManufacture,productINFO
+        from springbootweb.product sbwp
+        where sbwp.id = #{id}
+    </select>
+
+    <delete id="delete">
+        delete from springbootweb.product where id = #{id}
+    </delete>
+
+    <insert id="save" parameterType="Product">
+        insert into springbootweb.product (productName, productConcessionary, productPrice, productActualPayment,
+        dateOfManufacture, productINFO)
+        VALUES (#{productName}, #{productConcessionary}, #{productPrice}, #{productActualPayment}, #{dateOfManufacture},
+        #{productINFO})
+    </insert>
+
+    <update id="updateProById" parameterType="Product">
+        update springbootweb.product set productName = #{productName},
+        productConcessionary = #{productConcessionary},
+        productPrice = #{productPrice},
+        productActualPayment = #{productActualPayment},
+        dateOfManufacture = #{dateOfManufacture},
+        productINFO = #{productINFO}
+        where id= #{id}
+    </update>
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaoliu.mapper.OrderMapper">
+
+    <select id="getAll" resultType="Order">
+        select id,orderName,orderPrice,orderPayTime,orderUrl
+        from springbootweb.order
+    </select>
+
+
+    <select id="getOrderById" resultType="Order">
+        select id,orderName,orderPrice,orderPayTime
+        from springbootweb.order sbwo
+        where sbwo.id = #{id}
+    </select>
+
+    <delete id="delete">
+        delete from springbootweb.order where id = #{id}
+    </delete>
+
+    <insert id="save" parameterType="Order">
+        insert into springbootweb.order (orderName, orderPrice, orderPayTime,orderUrl)
+        VALUES (#{orderName}, #{orderPrice}, #{orderPayTime},#{orderUrl})
+    </insert>
+
+    <update id="updateOrdById" parameterType="Order">
+        update springbootweb.order set orderName = #{orderName},
+        orderPrice = #{orderPrice},
+        orderPayTime = #{orderPayTime}
+        where id= #{id}
+    </update>
+</mapper>

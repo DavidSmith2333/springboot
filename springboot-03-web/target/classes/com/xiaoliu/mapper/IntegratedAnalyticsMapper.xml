@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaoliu.mapper.IntegratedAnalyticsMapper">
+
+    <select id="getAll" resultType="IntegratedAnalytics">
+        select id,companyName,companyBluePrint,companyWelfare,companyRecentDecisions,companyAnnouncement
+        from springbootweb.integratedAnalytics
+    </select>
+
+
+    <select id="getIntegratedAnalyticsById" resultType="IntegratedAnalytics">
+        select id,companyName,companyBluePrint,companyWelfare,companyRecentDecisions,companyAnnouncement
+        from springbootweb.integratedAnalytics sbwi
+        where sbwi.id = #{id}
+    </select>
+
+    <delete id="delete">
+        delete from springbootweb.integratedAnalytics where id = #{id}
+    </delete>
+
+    <insert id="save" parameterType="IntegratedAnalytics">
+        insert into springbootweb.integratedAnalytics (companyName, companyBluePrint,
+        companyWelfare,companyRecentDecisions,companyAnnouncement)
+        VALUES (#{companyName}, #{companyBluePrint}, #{companyWelfare}, #{companyRecentDecisions},
+        #{companyAnnouncement})
+    </insert>
+
+    <update id="updateIntById" parameterType="IntegratedAnalytics">
+        update springbootweb.integratedAnalytics set companyName = #{companyName},
+        companyBluePrint = #{companyBluePrint},
+        companyWelfare = #{companyWelfare},
+        companyRecentDecisions = #{companyRecentDecisions},
+        companyAnnouncement = #{companyAnnouncement}
+        where id= #{id}
+    </update>
+</mapper>
