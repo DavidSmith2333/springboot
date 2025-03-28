@@ -74,3 +74,102 @@ spring:
 
 
 
+# 运行结果截图
+
+
+
+## Register
+
+![image-20250328082550704](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082550704.png)
+
+
+
+
+
+## Login
+
+![image-20250328082507792](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082507792.png)
+
+
+
+![image-20250328082520294](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082520294.png)
+
+
+
+## UI
+
+![image-20250328082709479](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082709479.png)
+
+
+
+## 订单
+
+![image-20250328082728096](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082728096.png)
+
+
+
+### 添加
+
+![image-20250328082816805](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082816805.png)
+
+
+
+### 修改
+
+![image-20250328082835311](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082835311.png)
+
+
+
+### 查看
+
+![image-20250328082852276](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082852276.png)
+
+订单大类和商品之间是一对多的关系
+
+商品也可以实现增删改查
+
+
+
+## 商品
+
+
+
+### 增加
+
+![image-20250328083022052](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083022052.png)
+
+
+
+### 查看
+
+![image-20250328082952213](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082952213.png)
+
+
+
+## 员工信息管理
+
+### UI
+
+![image-20250328083110829](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083110829.png)
+
+
+
+### 增加
+
+![image-20250328083139493](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083139493.png)
+
+
+
+修改
+
+![image-20250328083153602](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083153602.png)
+
+
+
+### 查询
+
+![image-20250328083227257](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083227257.png)
+
+
+
+侧边栏上面的“退出”和“注销”按钮分别可以实现[退出账号]和[注销自己的账号]
