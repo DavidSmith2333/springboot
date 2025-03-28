@@ -34,6 +34,7 @@ SOURCE /path/to/springbootweb.sql;
 # 或者通过自己的Mysql管理工具进行导入	下面演示使用sqlYog导入
 ```
 
+![1](https://github.com/user-attachments/assets/e531aee9-8dfd-474b-bb11-900d22b731c5)
 
 
 ![image-20250224105841807](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250224105841807.png)
