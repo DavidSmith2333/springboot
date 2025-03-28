@@ -37,8 +37,6 @@ SOURCE /path/to/springbootweb.sql;
 ![1](https://github.com/user-attachments/assets/e531aee9-8dfd-474b-bb11-900d22b731c5)
 
 
-![image-20250224105841807](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250224105841807.png)
-
 3. 配置MySQL用户名和密码
    在`application.yml`文件中，找到数据库配置部分，并设置正确的用户名和密码：
 
@@ -83,8 +81,6 @@ spring:
 
 ![2](https://github.com/user-attachments/assets/eae50b82-0cde-4347-81cd-70acad14c2a2)
 
-![image-20250328082550704](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082550704.png)
-
 
 
 
@@ -93,12 +89,10 @@ spring:
 
 ![3](https://github.com/user-attachments/assets/27a354e0-261b-4a3e-a86d-7ff2b215e9d7)
 
-![image-20250328082507792](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082507792.png)
 
 
 ![4](https://github.com/user-attachments/assets/41618a1a-7ba3-462d-9d0e-4c24c9d41c96)
 
-![image-20250328082520294](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082520294.png)
 
 
 
@@ -106,14 +100,10 @@ spring:
 ![5](https://github.com/user-attachments/assets/6a0d2ced-043e-4a09-9b40-8c18b58c4cd1)
 
 
-![image-20250328082709479](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082709479.png)
-
 
 
 ## 订单
 ![6](https://github.com/user-attachments/assets/b4f96c58-d220-4eba-ac63-72af327c3984)
-
-![image-20250328082728096](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082728096.png)
 
 
 
@@ -121,23 +111,17 @@ spring:
 ![7](https://github.com/user-attachments/assets/b6b1efcc-8a81-4285-85d5-9d2eb7a5dc67)
 
 
-![image-20250328082816805](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082816805.png)
-
 
 
 ### 修改
 ![8](https://github.com/user-attachments/assets/0094bd53-3bc6-435f-9647-775423689786)
 
 
-![image-20250328082835311](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082835311.png)
-
 
 
 ### 查看
 ![9](https://github.com/user-attachments/assets/2b0bb05f-cad6-4808-95a5-8de01e6b1e89)
 
-
-![image-20250328082852276](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082852276.png)
 
 订单大类和商品之间是一对多的关系
 
@@ -153,15 +137,11 @@ spring:
 ![10](https://github.com/user-attachments/assets/a37529de-ed91-496f-a400-76f82acf7ff9)
 
 
-![image-20250328083022052](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083022052.png)
-
 
 
 ### 查看
 ![11](https://github.com/user-attachments/assets/10ac82c5-b030-452e-9cad-ba51e6e45236)
 
-
-![image-20250328082952213](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328082952213.png)
 
 
 
@@ -171,7 +151,6 @@ spring:
 
 ![12](https://github.com/user-attachments/assets/66ffeb98-dce2-4ecc-814f-f126ef0a521f)
 
-![image-20250328083110829](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083110829.png)
 
 
 
@@ -180,7 +159,6 @@ spring:
 ![15](https://github.com/user-attachments/assets/6063abe4-e6b6-4143-b405-c3bbf71ca910)
 
 
-![image-20250328083139493](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083139493.png)
 
 
 
@@ -188,14 +166,11 @@ spring:
 ![13](https://github.com/user-attachments/assets/937199d5-43c2-4b82-a818-ceaaf7a62fc2)
 
 
-![image-20250328083153602](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083153602.png)
-
 
 
 ### 查询
 ![14](https://github.com/user-attachments/assets/3411a10b-8dac-4a1a-9aa5-e05510b6d84c)
 
-![image-20250328083227257](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083227257.png)
 
 
 
