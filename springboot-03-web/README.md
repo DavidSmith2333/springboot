@@ -176,7 +176,8 @@ spring:
 
 
 ### 增加
-![13](https://github.com/user-attachments/assets/95991480-c86f-4356-8aba-128d766b2632)
+
+![15](https://github.com/user-attachments/assets/6063abe4-e6b6-4143-b405-c3bbf71ca910)
 
 
 ![image-20250328083139493](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083139493.png)
@@ -184,6 +185,7 @@ spring:
 
 
 修改
+![13](https://github.com/user-attachments/assets/937199d5-43c2-4b82-a818-ceaaf7a62fc2)
 
 
 ![image-20250328083153602](C:\Users\qian\AppData\Roaming\Typora\typora-user-images\image-20250328083153602.png)
